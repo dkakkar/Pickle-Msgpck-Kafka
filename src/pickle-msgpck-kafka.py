@@ -7,7 +7,7 @@ import msgpack,sys
 from kafka import KafkaProducer
 from kafka import KafkaConsumer
 
-filename1 = open('/Users/Happy/Desktop/Ryans_data/Daily_Tweet_Pickle/stutases_201661_0.p', 'rb') 
+filename1 = open('stutases_201661_0.p', 'rb') 
 json_list = []  #create empty list that will be used to store JSON objects
 
 #Add the 'unpickled' and JSON-converted tweets to json_list from hourly pickled files
